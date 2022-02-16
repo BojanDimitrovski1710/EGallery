@@ -1,0 +1,25 @@
+﻿@model EGallery.Domain.DomainModels.Product
+
+@{
+    ViewData["Title"] = "Add to Shopping Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div><h1>@Model.Name</h1></div>
+<hr />
+<div class="container">
+    <div class="row m-auto">
+        <img src="@Model.Image" alt="Alternate Text" />
+    </div>
+    <hr />
+    <br />
+    <div class="row m-auto border border-dark rounded p-4 shadow-lg text-center justify-content-center" style="width: 500px">
+        <h3>Description</h3>
+        <p>@Model.Description</p>
+        <br />
+        <a asp-controller="Products" asp-action="Index" class="btn btn-primary">Back To Products</a>
+    </div>
+
+    <br />
+    
+</div>

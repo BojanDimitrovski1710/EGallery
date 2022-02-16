@@ -1,0 +1,41 @@
+﻿@model EGallery.Domain.DTO.AddToShoppingCartDto
+
+@{ 
+    ViewData["Title"] = "Add to Shopping Cart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div><h4>Add Artwork to Shopping Cart</h4></div>
+<hr />
+<div class="container">
+    <div class="row m-auto">
+            <img src="@ViewBag.image" alt="Alternate Text"  />
+    </div>
+    <hr />
+    <div class="row m-auto border border-dark rounded p-4 shadow-lg" style="width: 500px">
+        <br />
+        <form asp-action="AddToShoppingCart" method="post" class="m-auto">
+            <input type="hidden" asp-for="ProductId" />
+            <div class="form-group border-dark rounded p-4">
+                <div class="form-group">
+                    <label hidden asp-for="SelectedProduct.Name"></label>
+                    <input disabled hidden asp-for="SelectedProduct.Name" class="form-control" />
+                    <h3> @Model.SelectedProduct.Name </h3>
+                    <p>@Model.SelectedProduct.Description</p>
+                </div>
+
+                <div class="form-group border-dark">
+                    <label asp-for="Quantity">
+
+                    </label>
+                    <input asp-for="Quantity" class="form-control inline" />
+                </div>
+
+                <div class="form-group border-dark">
+                    <input type="submit" name="submit" value="Add To Cart" class="btn btn-success" />
+                </div>
+            </div>
+            
+        </form>
+    </div>
+</div>
