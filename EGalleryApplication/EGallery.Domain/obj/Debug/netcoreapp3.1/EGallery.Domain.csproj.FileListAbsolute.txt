@@ -1,0 +1,10 @@
+C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Domain\bin\Debug\netcoreapp3.1\EGallery.Domain.deps.json
+C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Domain\bin\Debug\netcoreapp3.1\EGallery.Domain.dll
+C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Domain\bin\Debug\netcoreapp3.1\EGallery.Domain.pdb
+C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Domain\obj\Debug\netcoreapp3.1\EGallery.Domain.csproj.AssemblyReference.cache
+C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Domain\obj\Debug\netcoreapp3.1\EGallery.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Domain\obj\Debug\netcoreapp3.1\EGallery.Domain.AssemblyInfoInputs.cache
+C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Domain\obj\Debug\netcoreapp3.1\EGallery.Domain.AssemblyInfo.cs
+C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Domain\obj\Debug\netcoreapp3.1\EGallery.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Domain\obj\Debug\netcoreapp3.1\EGallery.Domain.dll
+C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Domain\obj\Debug\netcoreapp3.1\EGallery.Domain.pdb
