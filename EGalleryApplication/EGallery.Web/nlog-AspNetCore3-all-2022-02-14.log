@@ -1,0 +1,502 @@
+2022-02-14 01:07:45.5861|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 01:07:54.3155|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 01:07:54.3268|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 01:07:54.3268|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 01:08:18.3053|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at EGallery.Services.Implementation.ShoppingCartService.getShoppingCartInfo(String userId) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\ShoppingCartService.cs:line 73
+   at EGallery.Web.Controllers.ShoppingCartController.Index() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Controllers\ShoppingCartController.cs:line 29
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-14 01:08:29.0404|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:08:35.0648|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 01:08:35.0759|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:08:53.3243|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:08:59.4589|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 01:08:59.4682|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:09:09.4672|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 01:09:09.4809|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:14:12.0981|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 01:14:14.3062|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 01:14:14.3062|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 01:14:14.3062|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 01:14:22.2358|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:15:34.2027|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 01:15:36.3290|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 01:15:36.3290|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 01:15:36.3407|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 01:16:27.1127|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 01:16:29.8868|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 01:16:29.8868|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 01:16:29.8994|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 01:17:40.2667|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:18:02.1752|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 01:18:02.1848|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:19:43.4477|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 01:19:46.6090|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 01:19:46.6090|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 01:19:46.6214|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 01:20:08.0816|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:22:16.2153|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 01:22:19.7931|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 01:22:19.8319|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 01:22:19.8450|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 01:22:29.8821|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:23:37.7710|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 01:23:39.9969|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 01:23:39.9969|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 01:23:40.0119|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 01:23:44.6495|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:24:45.4273|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 01:24:47.6982|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 01:24:47.6982|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 01:24:47.7130|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 01:24:54.8978|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:25:54.1289|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 01:25:57.1287|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 01:25:57.1339|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 01:25:57.1493|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 01:26:03.0727|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:26:25.0461|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 01:28:12.3684|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:10:08.1061|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:10:13.5047|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:10:13.5084|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:10:13.5084|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:10:40.8011|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:10:45.0049|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:11:45.1527|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Products_AddToShoppingCart.<ExecuteAsync>b__14_0() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Views\Products\AddToShoppingCart.cshtml:line 20
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.GetChildContentAsync(Boolean useCachedResult, HtmlEncoder encoder)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Views_Products_AddToShoppingCart.ExecuteAsync() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Views\Products\AddToShoppingCart.cshtml:line 12
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-14 20:15:24.0492|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:15:26.6706|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:15:26.6706|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:15:26.7131|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:15:31.1561|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:15:38.8928|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:17:09.4291|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at EGallery.Services.Implementation.ProductService.GetShoppingCartInfo(Nullable`1 id) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\ProductService.cs:line 85
+   at EGallery.Web.Controllers.ProductsController.AddToShoppingCart(Nullable`1 id) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Controllers\ProductsController.cs:line 95
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-14 20:17:22.4701|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Products_AddToShoppingCart.<ExecuteAsync>b__14_0() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Views\Products\AddToShoppingCart.cshtml:line 20
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.GetChildContentAsync(Boolean useCachedResult, HtmlEncoder encoder)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Views_Products_AddToShoppingCart.ExecuteAsync() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Views\Products\AddToShoppingCart.cshtml:line 12
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-14 20:20:29.3406|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:20:31.8664|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:20:31.8735|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:20:31.8735|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:20:38.3492|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:21:20.8612|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Products_AddToShoppingCart.<ExecuteAsync>b__14_0() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Views\Products\AddToShoppingCart.cshtml:line 20
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.GetChildContentAsync(Boolean useCachedResult, HtmlEncoder encoder)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Views_Products_AddToShoppingCart.ExecuteAsync() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Views\Products\AddToShoppingCart.cshtml:line 12
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-14 20:22:41.9062|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:22:44.0209|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:22:44.0209|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:22:44.0312|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:22:47.5368|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:24:19.5479|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:24:21.6608|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:24:21.6667|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:24:21.6667|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:24:27.1715|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:26:21.5179|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Products_AddToShoppingCart.<ExecuteAsync>b__14_0() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Views\Products\AddToShoppingCart.cshtml:line 20
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.GetChildContentAsync(Boolean useCachedResult, HtmlEncoder encoder)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.RenderAtEndOfFormTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Views_Products_AddToShoppingCart.ExecuteAsync() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Views\Products\AddToShoppingCart.cshtml:line 12
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-14 20:27:16.0929|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:27:19.9808|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:27:19.9808|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:27:19.9969|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:27:26.4317|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:28:09.0777|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at EGallery.Services.Implementation.ProductService.AddToShoppingCart(AddToShoppingCartDto item, String userID) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\ProductService.cs:line 34
+   at EGallery.Web.Controllers.ProductsController.AddToShoppingCart(AddToShoppingCartDto item) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Controllers\ProductsController.cs:line 106
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-14 20:30:31.8032|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:30:34.9687|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:30:34.9928|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:30:35.0018|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:30:52.2301|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:31:06.8381|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:32:22.2987|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:32:25.2658|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:32:25.2739|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:32:25.2739|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:32:29.1414|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:34:09.9945|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:34:13.4332|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:34:13.4332|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:34:13.4474|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:34:20.8670|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:35:43.0796|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.NullReferenceException: Object reference not set to an instance of an object.
+   at EGallery.Services.Implementation.ProductService.AddToShoppingCart(AddToShoppingCartDto item, String userID) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\ProductService.cs:line 34
+   at EGallery.Web.Controllers.ProductsController.AddToShoppingCart(AddToShoppingCartDto item) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Controllers\ProductsController.cs:line 106
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-14 20:35:51.4817|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:39:32.4931|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:39:34.8670|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:39:34.8851|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:39:34.9007|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:39:39.4288|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:41:32.4907|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:41:36.1962|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:41:36.1962|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:41:36.1962|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:41:44.9710|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:42:35.8891|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:42:40.9544|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:42:40.9659|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:42:40.9780|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:42:47.5598|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:43:03.3611|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 20:43:03.3779|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:43:20.6707|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:43:38.8046|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:43:44.9680|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 20:43:44.9792|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:45:38.8390|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:45:41.7202|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:45:41.7202|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:45:41.7321|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:47:56.8878|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:47:59.0805|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:47:59.0805|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:47:59.0910|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:48:06.0566|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:48:28.3993|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 20:48:28.4210|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:48:33.4238|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 20:48:33.4342|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:55:01.9910|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:55:04.3956|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:55:04.4202|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:55:04.4438|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:55:12.5527|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:55:17.5256|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 20:55:17.5415|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:58:48.4879|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:58:50.6928|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:58:50.6964|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:58:50.6964|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:58:56.2882|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:59:00.5262|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 20:59:00.5429|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:59:43.7371|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 20:59:46.6952|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 20:59:46.7013|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 20:59:46.7013|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 20:59:49.6282|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 20:59:55.8430|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 20:59:55.8626|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 21:01:16.8099|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 21:01:19.6983|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 21:01:19.6983|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 21:01:19.6983|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 21:01:24.6472|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 21:01:28.6677|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 21:01:33.5404|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 21:01:33.5570|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 21:03:02.7402|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 21:03:05.2411|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 21:03:05.2458|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 21:03:05.2458|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 21:03:21.2708|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 21:03:31.5460|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 21:03:31.5615|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 21:03:37.6166|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 21:03:37.6253|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 21:05:34.9301|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 21:05:37.2740|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 21:05:37.2740|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 21:05:37.2740|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 21:05:41.9692|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 21:06:48.2566|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 21:06:50.3498|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 21:06:50.3542|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 21:06:50.3542|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 21:06:57.2735|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 22:47:39.1475|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 22:47:57.7816|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-14 22:47:57.7911|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-14 22:47:57.7911|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-14 22:48:23.4779|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 22:48:35.4647|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 22:48:55.3091|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 22:49:54.2882|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 22:50:08.7643|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 22:50:14.7662|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 22:50:24.1194|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 22:50:24.1368|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 22:50:28.6574|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 22:50:28.6696|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 22:50:39.8970|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-14 22:50:39.9151|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-14 23:24:26.0986|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 23:24:42.8219|0|ERROR|EGallery.Web.Program|Stopped program because of exception MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials c24sm2701938ejj.60 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials c24sm2701938ejj.60 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at EGallery.Services.Implementation.EmailService.SendEmailAsync(List`1 allMails) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\EmailService.cs:line 57
+   at EGallery.Services.Implementation.BackgroundEmailSender.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\BackgroundEmailSender.cs:line 27
+   at EGallery.Services.ConsumeScopedHostedService.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 33
+   at EGallery.Services.ConsumeScopedHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 20
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at EGallery.Web.Program.Main(String[] args) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Program.cs:line 23
+2022-02-14 23:26:32.0651|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 23:26:42.6226|0|ERROR|EGallery.Web.Program|Stopped program because of exception MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials j8sm2038429edw.40 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials j8sm2038429edw.40 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at EGallery.Services.Implementation.EmailService.SendEmailAsync(List`1 allMails) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\EmailService.cs:line 57
+   at EGallery.Services.Implementation.BackgroundEmailSender.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\BackgroundEmailSender.cs:line 27
+   at EGallery.Services.ConsumeScopedHostedService.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 33
+   at EGallery.Services.ConsumeScopedHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 20
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at EGallery.Web.Program.Main(String[] args) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Program.cs:line 23
+2022-02-14 23:29:25.0476|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 23:29:33.0233|0|ERROR|EGallery.Web.Program|Stopped program because of exception MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials u24sm871143eje.25 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials u24sm871143eje.25 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at EGallery.Services.Implementation.EmailService.SendEmailAsync(List`1 allMails) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\EmailService.cs:line 57
+   at EGallery.Services.Implementation.BackgroundEmailSender.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\BackgroundEmailSender.cs:line 27
+   at EGallery.Services.ConsumeScopedHostedService.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 33
+   at EGallery.Services.ConsumeScopedHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 20
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at EGallery.Web.Program.Main(String[] args) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Program.cs:line 23
+2022-02-14 23:31:09.6635|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-14 23:31:17.7733|0|ERROR|EGallery.Web.Program|Stopped program because of exception MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials w2sm4160084edc.39 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials w2sm4160084edc.39 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at EGallery.Services.Implementation.EmailService.SendEmailAsync(List`1 allMails) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\EmailService.cs:line 57
+   at EGallery.Services.Implementation.BackgroundEmailSender.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\BackgroundEmailSender.cs:line 27
+   at EGallery.Services.ConsumeScopedHostedService.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 33
+   at EGallery.Services.ConsumeScopedHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 20
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at EGallery.Web.Program.Main(String[] args) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Program.cs:line 23

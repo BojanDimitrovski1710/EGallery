@@ -1,0 +1,482 @@
+2022-02-15 18:24:30.5691|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 18:24:59.7926|0|ERROR|EGallery.Web.Program|Stopped program because of exception MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials m28sm4312987ejn.50 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials m28sm4312987ejn.50 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at EGallery.Services.Implementation.EmailService.SendEmailAsync(List`1 allMails) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\EmailService.cs:line 57
+   at EGallery.Services.Implementation.BackgroundEmailSender.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\BackgroundEmailSender.cs:line 27
+   at EGallery.Services.ConsumeScopedHostedService.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 33
+   at EGallery.Services.ConsumeScopedHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 20
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at EGallery.Web.Program.Main(String[] args) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Program.cs:line 23
+2022-02-15 18:29:34.0181|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 18:29:41.1453|0|ERROR|EGallery.Web.Program|Stopped program because of exception MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials z18sm2369014ejl.78 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials z18sm2369014ejl.78 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at EGallery.Services.Implementation.EmailService.SendEmailAsync(List`1 allMails) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\EmailService.cs:line 57
+   at EGallery.Services.Implementation.BackgroundEmailSender.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\BackgroundEmailSender.cs:line 27
+   at EGallery.Services.ConsumeScopedHostedService.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 33
+   at EGallery.Services.ConsumeScopedHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 20
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at EGallery.Web.Program.Main(String[] args) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Program.cs:line 23
+2022-02-15 18:34:41.2571|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 18:34:48.6600|0|ERROR|EGallery.Web.Program|Stopped program because of exception MailKit.Security.AuthenticationException: 535: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials h16sm3771105ejj.56 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.8 Username and Password not accepted. Learn more at
+5.7.8  https://support.google.com/mail/?p=BadCredentials h16sm3771105ejj.56 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at EGallery.Services.Implementation.EmailService.SendEmailAsync(List`1 allMails) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\EmailService.cs:line 57
+   at EGallery.Services.Implementation.BackgroundEmailSender.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\BackgroundEmailSender.cs:line 27
+   at EGallery.Services.ConsumeScopedHostedService.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 33
+   at EGallery.Services.ConsumeScopedHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 20
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at EGallery.Web.Program.Main(String[] args) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Program.cs:line 23
+2022-02-15 18:36:39.5139|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 18:36:45.7244|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 18:36:45.7682|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 18:36:45.8057|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 18:37:08.9684|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 18:37:17.1143|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 18:37:17.1242|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 18:37:23.6135|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 18:37:23.6254|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 18:37:26.3392|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 18:37:26.3583|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 18:49:14.0890|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 18:49:43.5262|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 18:49:43.5262|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 18:49:43.5556|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 18:51:42.3232|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 18:53:02.7365|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 18:53:02.7478|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 18:53:02.7478|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 19:08:30.0368|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 19:09:31.8522|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 19:09:31.8522|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 19:09:31.8775|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 19:09:36.4644|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 19:09:44.9352|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 19:09:44.9567|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 20:11:44.2092|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 20:12:01.0947|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 20:12:01.0947|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 20:12:01.1070|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 20:21:50.9673|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 20:22:03.6759|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 20:22:03.6941|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 20:22:03.7014|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 20:22:04.8829|20102|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (258ms) [Parameters=[@__p_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[Address], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FirstName], [a].[LastName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a].[isAdmin]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[Id] = @__p_0 
+2022-02-15 20:22:05.1434|10100|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'EGallery.Repository.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isAdmin'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:7c20f494-f667-464a-b135-74e24f31bd2b
+Error Number:207,State:1,Class:16 Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'isAdmin'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:7c20f494-f667-464a-b135-74e24f31bd2b
+Error Number:207,State:1,Class:16
+2022-02-15 20:23:27.9738|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 20:23:37.5909|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 20:23:37.5909|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 20:23:37.6030|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 20:24:11.0697|14|WARN|Microsoft.AspNetCore.Identity.UserManager|User 4c392390-5024-4a56-9547-129b6ccf020a password validation failed: PasswordTooShort;PasswordRequiresNonAlphanumeric;PasswordRequiresLower;PasswordRequiresUpper. 
+2022-02-15 20:25:55.4586|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 20:26:05.3472|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 20:26:05.3472|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 20:26:05.3699|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 20:28:45.1670|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 20:28:55.5656|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 20:28:55.5792|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 20:28:55.5916|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 20:49:16.9099|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 20:49:29.6615|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 20:49:29.6668|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 20:49:29.6668|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 20:49:33.9535|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 20:49:54.1775|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 20:50:08.3244|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 20:55:21.2869|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 20:55:29.7751|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 20:55:29.7751|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 20:55:29.7931|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 20:55:42.1502|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 20:55:46.6218|1|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'EGallery.Domain.DomainModels.Product', but this ViewDataDictionary instance requires a model item of type 'EGallery.Domain.DomainModels.ProductInShoppingCart'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-02-15 20:56:44.4007|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 20:56:57.9929|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 20:56:57.9976|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 20:56:57.9976|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 20:57:05.6091|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 20:57:18.0082|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 20:58:29.8170|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:11:57.3742|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:12:09.5152|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:12:09.5243|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:12:09.5243|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:16:08.3712|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:16:20.6855|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:16:20.6855|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:16:20.7022|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:21:33.6326|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:21:42.9565|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:21:42.9706|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:21:42.9783|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:23:07.0213|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:23:15.9252|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:23:15.9388|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:23:15.9568|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:24:08.8115|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:24:18.7376|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:24:18.7609|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:24:18.7609|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:25:46.9353|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:25:56.0119|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:25:56.0119|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:25:56.0274|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:26:40.1803|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:26:49.1683|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:26:49.1683|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:26:49.1843|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:27:27.3904|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:27:36.4055|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:27:36.4055|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:27:36.4218|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:28:28.6581|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:28:37.9573|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:28:37.9650|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:28:37.9787|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:29:26.1763|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:29:36.1496|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:29:36.1496|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:29:36.1751|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:30:31.7705|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:30:41.7308|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:30:41.7464|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:30:41.7622|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:30:50.2183|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:30:55.8144|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:32:57.0856|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:33:06.3488|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:33:06.3630|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:33:06.3704|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:34:15.1365|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:34:23.8428|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:34:23.8428|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:34:23.8700|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:35:44.1686|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:35:53.2315|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:35:53.2468|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:35:53.2468|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:36:05.2332|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:37:05.7310|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:37:15.5516|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:37:15.5556|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:37:15.5739|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:38:07.6374|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:38:16.4826|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:38:16.4916|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:38:16.5108|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:38:36.3619|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:39:49.2479|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:39:58.4525|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:39:58.4525|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:39:58.4701|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:40:08.9393|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:41:05.7065|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:41:15.2645|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:41:15.2645|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:41:15.2916|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:41:18.5617|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:44:57.1726|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:45:16.0348|20004|ERROR|Microsoft.EntityFrameworkCore.Database.Connection|An error occurred using the connection to database 'GalleryDB' on server '(localdb)\mssqllocaldb'. 
+2022-02-15 21:45:16.1278|10100|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'EGallery.Repository.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "GalleryDB" requested by the login. The login failed.
+Login failed for user 'DESKTOP-2FM75RU\Bojan'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:5239f69f-2815-47ca-8d85-5730e2a282af
+Error Number:4060,State:1,Class:11 Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "GalleryDB" requested by the login. The login failed.
+Login failed for user 'DESKTOP-2FM75RU\Bojan'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:5239f69f-2815-47ca-8d85-5730e2a282af
+Error Number:4060,State:1,Class:11
+2022-02-15 21:45:16.8931|0|ERROR|EGallery.Web.Program|Stopped program because of exception Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot open database "GalleryDB" requested by the login. The login failed.
+Login failed for user 'DESKTOP-2FM75RU\Bojan'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at EGallery.Services.Implementation.BackgroundEmailSender.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\Implementation\BackgroundEmailSender.cs:line 27
+   at EGallery.Services.ConsumeScopedHostedService.DoWork() in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 33
+   at EGallery.Services.ConsumeScopedHostedService.StartAsync(CancellationToken cancellationToken) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Services\ConsumeScopedHostedService.cs:line 20
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at EGallery.Web.Program.Main(String[] args) in C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web\Program.cs:line 23
+ClientConnectionId:5239f69f-2815-47ca-8d85-5730e2a282af
+Error Number:4060,State:1,Class:11
+2022-02-15 21:46:16.9758|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:46:23.4978|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:46:23.4978|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:46:23.5130|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:46:32.1677|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:47:54.3044|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:48:01.9335|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:48:01.9547|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:48:01.9657|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:48:39.6174|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:48:50.4841|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:51:36.2965|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:51:43.1536|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:51:43.1536|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:51:43.1819|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:51:46.4764|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:53:19.3676|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:53:26.0867|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:53:26.0867|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:53:26.0867|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:53:29.0215|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:54:41.3176|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:58:36.3572|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 21:58:44.3170|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 21:58:44.3234|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 21:58:44.3234|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 21:58:53.1462|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 21:59:35.4565|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:00:43.6661|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:01:51.5611|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:03:16.7670|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:03:47.1556|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:04:20.9944|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:05:12.2845|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:05:41.2282|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:06:25.7091|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:06:25.7368|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:06:32.9994|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:06:33.0106|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:06:41.3726|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:06:41.3879|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:06:54.3143|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:06:54.3328|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:07:00.9672|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:07:00.9825|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:07:07.0013|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:07:07.0165|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:07:13.9306|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:07:13.9306|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:07:26.6315|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:07:34.6260|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:07:37.5325|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:08:05.8783|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:08:34.8160|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:08:56.1043|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:09:43.0015|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:10:04.9041|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:10:40.3268|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:11:01.4183|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:12:05.5438|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:13:09.2528|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:13:32.5426|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:13:52.4742|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:14:17.0627|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:14:23.6538|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:14:28.6636|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:14:28.6751|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:14:33.6045|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:14:33.6406|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:14:40.8380|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:14:40.8380|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:14:57.1371|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:15:08.5047|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:15:08.5117|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:18:41.3926|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 22:18:49.4448|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 22:18:49.4490|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 22:18:49.4490|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 22:18:53.7243|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:20:14.5255|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 22:20:26.2958|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 22:20:26.2958|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 22:20:26.3136|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 22:20:46.7499|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:20:55.6004|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:21:01.8185|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:21:01.8563|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:22:21.5600|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 22:22:28.9102|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 22:22:28.9102|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 22:22:28.9271|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 22:22:56.2527|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:23:02.2882|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 22:23:02.3071|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:24:43.7301|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 22:24:51.1682|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 22:24:51.1682|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 22:24:51.1819|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 22:24:54.3860|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:32:28.7899|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 22:32:36.2300|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 22:32:36.2433|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 22:32:36.2433|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 22:32:39.2982|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:32:50.8399|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 22:33:30.9284|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 22:33:38.4283|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 22:33:38.4512|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 22:33:38.4638|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 22:33:42.1389|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 23:37:50.4221|0|DEBUG|EGallery.Web.Program|init main 
+2022-02-15 23:38:24.6706|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2022-02-15 23:38:24.6706|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2022-02-15 23:38:24.6844|0|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Bojan\Desktop\EGallery\EGalleryApplication\EGallery.Web 
+2022-02-15 23:38:56.1207|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
+2022-02-15 23:39:21.2340|0|INFO|EGallery.Services.Implementation.ProductService|Product was successfully added into ShoppingCart 
+2022-02-15 23:39:21.4611|0|INFO|EGallery.Services.Implementation.ProductService|GetAllProducts was called! 
